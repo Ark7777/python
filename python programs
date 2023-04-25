@@ -1,0 +1,167 @@
+# Array
+# Array is a collection of elements of same datatype places in contiguous memory locations.
+
+# import numpy
+# arr = numpy.array([10, 20, 30, 40, 50])
+# print(arr)
+
+import array as arr
+a = arr.array('i',[2,4,6,8,10,12])
+b = arr.array('i',[3,5,7,9,11,13])
+# c = arr.array('i')
+c = a + b
+print("Array c = ",c)
+print(len(a))
+print("First element",a[0])
+print("First element",a[1])
+print("First element",a[2])
+print("First element",a[-1])
+
+# index of an array element
+print(a.index(10))
+
+a[0] = 1 # changing first element
+print(a)
+
+# changing 3rd to 5th element
+# a[2:5] = arr.array("i",[5,7,9])
+# print(a)
+
+# deleting array element
+# del a[2]
+# print(a)
+
+# get specific values 
+# print(a[:2])
+# print(a[1:5])
+
+# Adding new elements in an array
+# a.append(15)
+# print(a)
+
+# extends method
+# b.extend([17,19,25])
+# print(b)
+
+# insert method
+# a.insert(2,7)
+# print(a)
+
+# remove method
+b.remove(11)
+print(b)
+
+# pop method
+a.pop(1)
+print(a)
+
+# length of an array
+print(len(a))
+
+cars = ["Ford","volvo","BMW","Ford"]
+x = cars[0]
+print(x)
+
+# count method
+y = cars.count("Ford")
+print(y)
+
+names = ['Arka','Sayan','Subham']
+for name in names:
+  print(name)
+
+
+
+
+
+
+
+
+#x = int(input("Enter a number: "))
+#if x % 2 == 0:
+  #print(x,"is an even number")
+#else:
+  #print(x,"is an odd number")
+
+num = 7
+if num==0:
+  print(num, "is zero")
+elif num > 0:
+  print(num, "is positive")
+elif num < 0:
+  print(num,"is negetive")
+
+z = int(input("Enter a number: "))
+if z % 2 == 0 :
+  print("z is divisible by 2",)
+elif z % 3 == 0:
+  print("z is divisble by 3",)
+else:
+  print("Z is nither divisible by 2 nor by 3",)
+
+# Write a program to take user input and find which is greater 
+
+x=int(input("enter 1st number"))
+y=int(input("enter 2nd number"))
+
+
+
+
+a = 10
+b = bin(a)
+print(b)
+b = oct(a)
+print(b)
+b = hex(a)
+print(b)
+
+# str datatype
+str = " This is a book "
+#print(str*3)
+print(str[0]) 
+print(str[3])
+print(str[3:7])
+print(str[11:])
+print(str[-1])
+print(str[-2:])
+print(len(str))
+print("is" in str)
+print(str[:5])
+print(str.upper())
+print(str.lower())
+print(str.strip())
+print(str.replace("T","J"))
+print(str.split(","))
+a = "Hello"
+b = "World"
+c = a +" "+b
+print(c)
+age = 32
+txt = "My name is Shalini, and I am {}"
+print(txt.format(age))
+
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity,itemno,price))
+
+txt = "apple"
+x = txt.center(20)
+print(x)
+
+s = "apple is apple mango"
+v = s.count("apple")
+print(v)
+
+# How to reverse a string
+a = "Today is very hot"
+print(a[::-1])
+
+
+
+
+
+
+
+
